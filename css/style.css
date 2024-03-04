@@ -1,5 +1,15 @@
+
 body {
+    background-color: #F0E6D6;
+    margin: 0px;
+    max-width: auto;
+    max-height: auto;
+    /*
     
+*/
+}
+/*
+.homepage {
     #background {
         width: 135%;
         height: 135%;
@@ -11,8 +21,6 @@ body {
         z-index: -1;
     }
 
-}
-.homepage {
     #logo {
         position: absolute;
         top: 20px;
@@ -43,6 +51,32 @@ body {
         right: 10px;
         width: 100px;
         height: 100px;
+    }
+}
+*/
+
+
+.step1 {
+    display: grid;
+    header {
+        margin: 45px;
+        max-height: max-content;
+        width: auto;
+        nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+    aside {
+        margin: 0px;
+        width: 45%;
+        max-height: auto;
+        img {
+            max-width: 100%;
+            height: auto;
+        }
     }
 }
     
