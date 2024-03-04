@@ -1,0 +1,49 @@
+body {
+    
+    #background {
+        width: 135%;
+        height: 135%;
+        background: url(/img/cover.gif), lightgray 50% / cover no-repeat;
+        background-size: cover;
+        position: fixed;
+        left: -15%;
+        top: -15%;
+        z-index: -1;
+    }
+
+}
+.homepage {
+    #logo {
+        position: absolute;
+        top: 20px;
+        left: 22.5px;
+        width: auto;
+        height: 125px;
+    }
+
+    width: 100%;
+    height: 100%;
+    h1 { 
+        position: absolute;
+        top: 33%; left: 33%;
+        width: 500px;
+        font-family: Sansita;
+        font-size: 75px;
+        font-style: italic;
+        font-weight: 900;
+        line-height: normal;
+        text-align: center;
+        color: #493424;
+        word-wrap: break-word;
+    }
+
+    #arrow {
+        position: absolute;
+        bottom: 20px;
+        right: 10px;
+        width: 100px;
+        height: 100px;
+    }
+}
+    
+    
