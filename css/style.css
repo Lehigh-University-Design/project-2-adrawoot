@@ -58,6 +58,13 @@ h1 {
     height:100vh;   
 }
 
+#current {
+    display: block;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+}
+
 #step1,
 #step2,
 #step3,
@@ -70,6 +77,15 @@ h1 {
 header {
     width: auto;
     margin: 20px;
+}
+
+button {
+    margin: 0px;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
 }
 
 nav {
