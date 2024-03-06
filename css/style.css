@@ -11,7 +11,7 @@ body {
 
 #background {
     background: url(/img/cover.gif), lightgray 50% / cover no-repeat;
-    min-height: 100vh;
+    height: 100vh;
     width: 100vw;
     background-attachment: fixed;
     z-index: -1;
