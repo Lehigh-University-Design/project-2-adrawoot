@@ -54,8 +54,16 @@ h1 {
     flex-direction: row;
     max-height: 100vh;
 }
+
 #homepage {
     height:100vh;   
+}
+
+#current {
+    display: block;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
 }
 
 #step1,
